@@ -1,0 +1,12 @@
+
+<h2>My Blogs</h2>
+<a href="{% url 'blog_create' %}">Create New Blog</a>
+<ul>
+    {% for blog in blogs %}
+        <li>
+            <strong>{{ blog.title }}</strong>
+            <a href="{% url 'blog_edit' blog.pk %}">Edit</a>
+            <a href="{% url 'blog_delete' blog.pk %}">Delete</a>
+        </li>
+    {% endfor %}
+    </ul>

@@ -1,0 +1,17 @@
+
+
+
+<html>
+    <head>
+        <body>
+            {% if user.is_authenticated %}
+            <h4>hello {{ user.username }}</h4>
+            <a href="/logout/">logout</a>
+
+            {% else %}
+            <p>you are not logged in.</p>
+            {% endif %}
+        </body>
+    </head>
+</html>
+
