@@ -27,3 +27,15 @@ Backend: Django
 Database: SQLite 
 
 Authentication: Django Auth
+
+Future Enhancements
+
+🖼 Add image/file uploads for blogs
+
+💬 Enable comments on posts
+
+❤ Like/Bookmark feature
+
+👥 Multi-user roles (Admin, Author, Reader)
+
+📊 Dashboard & Analytics
